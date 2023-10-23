@@ -18,8 +18,16 @@ Second test case
     Log   This is sec test
     Log   Test has been completed
 
+Third test case
+    Search Mercedes on google
+
 *** Keywords ***
 Search BMW on google
     Input Text      //textarea[@class='gLFyf']    BMW I5
+    Press Keys      //textarea[@class='gLFyf']    RETURN
+    Log   test completed
+
+Search Mercedes on google
+    Input Text      //textarea[@class='gLFyf']    Mercedes
     Press Keys      //textarea[@class='gLFyf']    RETURN
     Log   test completed
