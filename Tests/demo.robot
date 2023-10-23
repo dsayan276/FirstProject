@@ -1,11 +1,12 @@
 *** Settings ***
 Documentation       This is a demo project for checking git repository
-Library     SeleniumLibrary
+Resource            ../Resources/Common.robot
+Library             SeleniumLibrary
+Test Setup          Start test
+Test Teardown       End test
 # robot -d Results Tests/demo.robot
 
-*** Variables ***
-${URL}           https://www.google.com
-${BROWSER}       chrome
+
 
 *** Test Cases ***
 First test case
@@ -19,9 +20,6 @@ Second test case
 
 *** Keywords ***
 Search BMW on google
-    Open Browser    ${URL}    ${BROWSER}
-    Sleep           5s
     Input Text      //textarea[@class='gLFyf']    BMW I5
     Press Keys      //textarea[@class='gLFyf']    RETURN
-    Close All Browsers
     Log   test completed
