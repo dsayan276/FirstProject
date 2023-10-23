@@ -9,10 +9,11 @@ ${BROWSER}       chrome
 
 *** Test Cases ***
 First test case
-    [Tags]    Just a test    Smoke
+    [Tags]    Smoke
     Search BMW on google
 
 Second test case
+    [Tags]    Placeholder
     Log   This is sec test
 
 *** Keywords ***
