@@ -8,6 +8,7 @@ ${BROWSER}       chrome
 *** Keywords ***
 Start test
     Open Browser    ${URL}    ${BROWSER}
+    Maximize Browser Window
     Sleep           2s
 
 End test
