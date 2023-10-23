@@ -14,6 +14,7 @@ First test case
 
 Second test case
     Log   This is sec test
+    Log   Test has been completed
 
 *** Keywords ***
 Search BMW on google
