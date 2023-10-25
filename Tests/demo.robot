@@ -23,11 +23,11 @@ Third test case
 
 *** Keywords ***
 Search BMW on google
-    Input Text      //textarea[@class='gLFyf']    BMW I5
+    Input Text      //textarea[@class='gLFyf']    BMW I7
     Press Keys      //textarea[@class='gLFyf']    RETURN
     Log   test completed
 
 Search Mercedes on google
-    Input Text      //textarea[@class='gLFyf']    Mercedes
+    Input Text      //textarea[@class='gLFyf']    Mercedes S class
     Press Keys      //textarea[@class='gLFyf']    RETURN
     Log   test completed
