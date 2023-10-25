@@ -11,7 +11,7 @@ Test Teardown       End test
 *** Test Cases ***
 First test case
     [Tags]    Smoke
-    Search BMW on google
+    Search TATA on google
 
 Second test case
     [Tags]    Placeholder
@@ -22,8 +22,8 @@ Third test case
     Search Mercedes on google
 
 *** Keywords ***
-Search BMW on google
-    Input Text      //textarea[@class='gLFyf']    BMW I7
+Search TATA on google
+    Input Text      //textarea[@class='gLFyf']    TATA Altroz
     Press Keys      //textarea[@class='gLFyf']    RETURN
     Log   test completed
 
